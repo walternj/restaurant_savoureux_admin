@@ -1,0 +1,1803 @@
+(this["webpackJsonpadmin"] = this["webpackJsonpadmin"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/adminMenuBar.css":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/adminMenuBar.css ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".menuBarContainer {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: center;\r\n    align-items: center;\r\n    align-content: center;\r\n    width: 100%;\r\n    height: 8vh;\r\n    min-height: 60px;\r\n    \r\n    min-width: fit-content;\r\n    border-bottom-style: solid;\r\n    border-color: rgba(256, 256, 256, 0.20);\r\n    background-color:  rgba(37, 87, 194, 0.95);\r\n    overflow: hidden;\r\n    position: fixed;\r\n    z-index: 2;   \r\n}\r\n\r\n.menuBarContent {\r\n    display: flex;\r\n    justify-content: space-between;\r\n  \r\n    width: 80%;\r\n    align-items: center;\r\n    align-content: center;\r\n    \r\n}\r\n\r\n.logo {\r\n    display: flex;\r\n    flex-direction: column;\r\n    min-width: fit-content;\r\n    align-items: flex-start;\r\n    height: 8vh;\r\n  \r\n}\r\n\r\n.logo p {\r\n    display: flex;\r\n    font-family: 'Courier New', Courier, monospace;\r\n    font-size: 26px;\r\n    text-shadow:-1px 0 black, 0 1px #F81, 1px 0 #F81, 0 -1px black;\r\n    color: #FFF;\r\n    font-weight: bold;\r\n    line-height: 26px;\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.menu {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    \r\n  }\r\n  .menu ul {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n  }\r\n  .menu li {\r\n    display: flex;\r\n    align-items: center;    \r\n    justify-content: center;\r\n    align-content: center;\r\n    color: #FFF;\r\n    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\r\n    font-size: 18px;\r\n    list-style: none;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n    cursor: pointer;\r\n   \r\n  }\r\n  \r\n  .menu li:hover {\r\n    color: #F81\r\n  }\r\n  \r\n  .menu li:focus {\r\n    text-decoration: underline\r\n  }\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Imports
+var urlEscape = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/url-escape.js */ "./node_modules/css-loader/dist/runtime/url-escape.js");
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ./assets/images/admin-background-image-6.jpg */ "./src/assets/images/admin-background-image-6.jpg"));
+
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminMenu/adminMenu.css":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/pages/AdminMenu/adminMenu.css ***!
+  \**********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Imports
+var urlEscape = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/url-escape.js */ "./node_modules/css-loader/dist/runtime/url-escape.js");
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../assets/images/camera.svg */ "./src/assets/images/camera.svg"));
+
+// Module
+exports.push([module.i, ".menuContainer {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100%;\r\n  height: fit-content;\r\n}\r\n  \r\n.cardDeckContainer {\r\n  display: flex;\r\n  flex-direction: column; \r\n  justify-content: center;\r\n  align-items: center;\r\n  align-content: center;\r\n  \r\n  width: 100%;\r\n  height: fit-content;\r\n  margin-top: 8vh;\r\n \r\n}\r\n\r\n#menuFrame {\r\n  display: flex;  \r\n  justify-content: flex-end;\r\n  width: 90%;\r\n}\r\n\r\n#menuTitle {\r\n  display: flex;\r\n  min-height: fit-content;\r\n  justify-content: center;\r\n  min-height: fit-content;\r\n  width: 100%;\r\n  background-color: transparent;\r\n\r\n  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;\r\n  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\r\n  font-size: 2vw;\r\n  font-weight: bold;\r\n  color:  #FFF;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.card-deck {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  flex-flow: row wrap; \r\n  align-items: stretch;\r\n  \r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n  \r\n#card {\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: auto;\r\n  min-height: 70vh;\r\n  background-color: rgba(256, 256, 256, 0.90);\r\n  margin: 5px;\r\n  padding: 0;\r\n  max-width: 236px;\r\n  border-radius: 5px;\r\n  border-style: solid;\r\n  border-color: black;\r\n  cursor: pointer;\r\n}\r\n\r\n#card img {\r\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\r\n  height: 150px;   \r\n}\r\n  \r\n.image {\r\n  display: flex;\r\n  height: 30%;\r\n  background-position: center;\r\n  background-size: cover;\r\n}\r\n\r\n#modalWindow form{\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n#modalWindow form label {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n#photo {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-self: center;\r\n  width: 100%;\r\n  height: 160px;\r\n  background-size: cover;\r\n  margin-bottom: 20px;\r\n  border-style: dashed;\r\n  border-width: 0.5px;\r\n  border-color: rgb(179, 179, 179);\r\n  cursor: pointer;\r\n}\r\n\r\n#photo input {\r\n  display: none;\r\n}\r\n\r\n.has-photo img {\r\n  display: none;\r\n}\r\n\r\n#title {\r\n  align-self: flex-start;\r\n  width: 100%;\r\n}\r\n\r\n#description {\r\n  height: 150px;\r\n  justify-content: flex-start;\r\n  align-content: flex-start;\r\n  align-items: start;\r\n  overflow: auto;\r\n  word-wrap: break-word;\r\n}\r\n\r\n\r\n@media (max-width: 1024px) {    \r\n\r\n  #menuTitle {\r\n    font-size: 9vw;\r\n    margin-top: 4vh;\r\n  }\r\n\r\n  #menuFrame {\r\n    display: flex;\r\n    width: 94%;\r\n  }\r\n}\r\n\r\n@media (max-width: 768px) {\r\n\r\n  .menuContainer {\r\n      \r\n    margin-top: -8vh;\r\n  }\r\n\r\n  #menuTitle {\r\n      margin-top: 6vh;\r\n  }\r\n\r\n  #menuFrame {\r\n    width: 93%;\r\n    justify-content: center;\r\n    align-items: center;\r\n  }\r\n}\r\n\r\n@media (max-width: 574px) {\r\n\r\n  #menuFrame {\r\n      justify-content: center;\r\n      width: 95%;\r\n      \r\n      border-color: #F81;\r\n  }\r\n\r\n  .card-deck {\r\n    justify-content: center;\r\n  }\r\n  #card {\r\n    display: flex;\r\n      \r\n  }\r\n}\r\n\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminMessages/adminMessages.css":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/pages/AdminMessages/adminMessages.css ***!
+  \******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".messagesContainer {\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\theight: 100vh;\r\n\tpadding: 0;\r\n\tmargin: 0;\r\n}\r\n\r\n.messagesContent {\r\n\tdisplay: flex;\r\n\tflex-direction: row;\r\n\talign-items: flex-start;\r\n\tjustify-content: space-between;\r\n\twidth: 80%;\r\n\tmargin-top: 8vh;\r\n\tmargin-bottom: 0;\r\n\tpadding: 0;\r\n\theight: 92vh;\r\n}\r\n\r\n#title {\r\n\talign-self: center;\r\n}\r\n\r\n.boiteMessages {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\talign-items: flex-start;\r\n\tpadding: 5px;\r\n\twidth:25%;\r\n\tmin-width: fit-content;\r\n\toverflow: scroll;\r\n\tmax-width: 25%;\r\n\theight: 92vh;\r\n\tmargin-top: 2px;\r\n\tmargin-bottom: 0;\r\n\toverflow: hidden;\r\n\tbackground-color: rgba(255, 255, 238, 0.90);\r\n\tpadding: 0;\r\n}\r\n\t\r\n.boiteMessages h1 {\r\n\tfont-size: 1.2em;\r\n\tfont-weight: bold;\r\n\twidth: 100%;\r\n\ttext-align: center;\r\n\tborder-bottom-style: solid;\r\n\tborder-bottom-width: 2px;\r\n\tpadding-bottom: 10px;\r\n\tpadding-top: 10px;\r\n\tmargin-bottom: 0;\r\n\tmargin-top: 0;\r\n}\r\n.boiteMessages li{\r\n\tdisplay: inline-block;\r\n\ttext-decoration: none;\r\n\r\n\toverflow: hidden;\r\n\twidth: 100%;\r\n\tmin-width: fit-content;\r\n\tmin-height: fit-content;\r\n\tline-height: 20px;\r\n\tcolor: #000;\r\n\tfont-size: 1.1em;\r\n\r\n\tpadding-top: 15px;\r\n\tpadding-left: 5px;\r\n\tborder-bottom-style: solid;\r\n\tborder-bottom-width: 1px;\r\n\tborder-bottom-color: black;\r\n\tcursor: pointer;\r\n}\r\n.boiteMessages li:hover{\r\n\tbackground-color: rgba(90, 126, 204, 0.95);\r\n}\r\n.boiteMessages li:focus  {\r\n\tbackground-color: rgba(90, 126, 204, 0.95);\r\n}\r\n\r\n\r\n.showMessage {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tjustify-content: flex-start;\r\n\twidth: 75%;\r\n\theight: 92vh;\r\n\tmax-height: 92vh ;\r\n\tmargin-top: 2px;\r\n\tmargin-bottom: 0;\r\n\tpadding: 10px;\r\n\tfont-size: 1.1em;\r\n\tborder-left-style: solid;\r\n\tbackground-color: rgba(255, 255, 238, 0.90);\r\n\t\r\n}\r\n\r\n#image {\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\talign-items: center;\r\n\twidth: 100%;\r\n\theight: 100%;\r\n}\r\n#image img {\r\n\tdisplay: flex;\r\n\r\n\twidth: 50%;\r\n\theight: auto;\r\n\t\r\n}\r\n#messageHeader {\r\n\tdisplay: flex;\r\n\tflex-direction: row;\r\n\tjustify-content: space-between;\r\n\tfont-size: 1em;\r\n\tmargin-bottom: 10px;\r\n\tborder-bottom-style: solid;\r\n\tborder-bottom-width: 2px;\r\n}\r\n\r\n#messageHeader p{\r\n\tpadding-left: 10px;\r\n\tline-height: 18px;\r\n}\r\n\r\n#trashIcon {\r\n\tfont-size: 30px;\r\n\tcolor: rgb(73, 68, 68);\r\n\tmargin-right: 20px;\r\n}\r\n#trashIcon:hover {\r\n\tcolor: red;\r\n\tcursor: pointer;\r\n}\r\n\r\n#messageContent {\r\n\tdisplay: flex;\r\n\theight: fit-content;\r\n\tmin-height: 50vh;\r\n\tpadding-left: 15px;\r\n\tbackground-color: rgba(204, 204, 200, 0.849);\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.css":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.css ***!
+  \********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Imports
+var urlEscape = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/url-escape.js */ "./node_modules/css-loader/dist/runtime/url-escape.js");
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../assets/images/add.webp */ "./src/assets/images/add.webp"));
+
+// Module
+exports.push([module.i, ".platsContainer {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tjustify-content: center;\r\n\talign-items: center;\t\r\n\twidth: 100%;\r\n\tfont-family: Verdana, Geneva, Tahoma, sans-serif;\r\n\tfont-size: 0.5em;\r\n\tcolor: #000;\r\n}\r\n\r\n.platsContent {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tjustify-content: center;\r\n\talign-items: center;\r\n\theight: fit-content;\r\n\tmin-height: 92vh;\r\n\tmargin-top: 8vh;\r\n\twidth: 80%;\r\n\tmin-height: fit-content;\r\n\r\n}\r\n\r\n.platsList {\r\n  display: flex;\r\n  width: 100%;\r\n\theight: fit-content;\r\n  justify-content: flex-start;\r\n  align-items: center;\r\n  align-content: center;\r\n\tbackground-color: transparent;\r\n\tmargin-left: -50px;\r\n}\r\n\r\n.platsList div {\r\n\tdisplay: flex;\r\n}\r\n\r\n.header {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tmargin-left: 10px;\r\n}\r\n\r\n.platsList ul {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\twidth: 100%;\r\n\theight: fit-content;\r\n\tjustify-content: flex-start;\r\n\talign-items: flex-start;\r\n}\r\n  \r\n.platsList li {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tjustify-content: flex-start;\r\n\talign-items: flex-start;\r\n\talign-content: flex-start;\r\n\tmax-width:100%;\r\n\tmax-height:100%;\r\n\tmin-width: 100%;\r\n\tmin-height: 100%;\r\n\tborder-style: solid;\r\n\tborder-color: black;\r\n\tborder-radius: 5px;\r\n\tmargin: 0;\r\n\tmargin-bottom: 5px;\r\n\tlist-style: none;\r\n\tpadding: 5px;\r\n\tbackground-color:  rgba(255, 255, 238, 0.90);\r\n}\r\n\r\n.platsList img {\r\n\tdisplay: flex;\r\n\twidth: 300px;\r\n\theight: 200px;\r\n\tmin-width: 300px;\r\n\tmin-height: 200px;\r\n\tcursor: pointer;\r\n\tjustify-self: center;\r\n\talign-self: flex-start;\r\n\tbackground-image: url(" + ___CSS_LOADER_URL___0___ + ");\r\n\tborder-radius: 5px;\r\n\tobject-fit: fill;\r\n\tbackground-repeat: no-repeat;\r\n\tbackground-size: contain;\r\n\tbackground-position: center;\r\n}\r\n\r\n.platsList li p {\r\n\tdisplay: flex;\r\n\tflex-direction: row;\r\n\tfont-family: Verdana, Geneva, Tahoma, sans-serif;\r\n\t\r\n\tcolor: #000;\r\n\tfont-size: 2em;\r\n\tcursor: pointer;\r\n}\r\n\r\n\r\n\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminReservations/adminReservations.css":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/pages/AdminReservations/adminReservations.css ***!
+  \**************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".reservationsContainer {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    width: 100%;\r\n    height: fit-content;\r\n}\r\n\r\n.reservationsContent {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    width: 80%;\r\n    height: fit-content;\r\n    margin-top: 8vh;\r\n    background-color: rgba(255, 255, 238, 0.90);\r\n}\r\n#titleReservations {\r\n    display: flex;\r\n    justify-self: flex-start;\r\n    align-self: flex-start;\r\n\r\n}\r\n.reservationsContent p {\r\n    display: flex;\r\n    align-self: center;\r\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n    font-size: 2em;\r\n}\r\n\r\n.reservationsContent ul {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n.reservationsContent ul li {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 90%;\r\n    border-style: solid;\r\n    border-width: 1px;\r\n    list-style: none;\r\n    padding: 10px;\r\n    margin: 5px;\r\n    margin-left: -30px;\r\n    /*background-color:  rgba(37, 87, 194, 0.50);*/\r\n}\r\n.reservationsContent ul li p {\r\n    display: flex;\r\n    align-self: flex-start;\r\n    font-size: 1.2em;\r\n    white-space: pre;\r\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Admin; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./routes */ "./src/routes.js");
+/* harmony import */ var react_scroll_up_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-scroll-up-button */ "./node_modules/react-scroll-up-button/dist/react-scroll-up-button.js");
+/* harmony import */ var react_scroll_up_button__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_scroll_up_button__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\walte\\Documents\\React\\Restaurant_Savoureux\\admin\\src\\App.js";
+
+
+
+function Admin() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "app",
+    className: "App",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_1__["AdminRoutes"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll_up_button__WEBPACK_IMPORTED_MODULE_2__["VerticleButton"], {
+    AnimationDuration: 1000,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }));
+}
+
+/***/ }),
+
+/***/ "./src/assets/images/add.webp":
+/*!************************************!*\
+  !*** ./src/assets/images/add.webp ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/add.543b7b82.webp";
+
+/***/ }),
+
+/***/ "./src/assets/images/admin-background-image-6.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/admin-background-image-6.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/admin-background-image-6.9d3d95bc.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/camera.svg":
+/*!**************************************!*\
+  !*** ./src/assets/images/camera.svg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/camera.6a6f4b6e.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/email-png-images-transparent.png":
+/*!************************************************************!*\
+  !*** ./src/assets/images/email-png-images-transparent.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/email-png-images-transparent.b2490bc7.png";
+
+/***/ }),
+
+/***/ "./src/components/AdminMenuBar.js":
+/*!****************************************!*\
+  !*** ./src/components/AdminMenuBar.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AdminMenuBar; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _adminMenuBar_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./adminMenuBar.css */ "./src/components/adminMenuBar.css");
+/* harmony import */ var _adminMenuBar_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_adminMenuBar_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\walte\\Documents\\React\\Restaurant_Savoureux\\admin\\src\\components\\AdminMenuBar.js";
+
+
+
+function AdminMenuBar() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "menuBarContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "menuBarContent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Savoureaux!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Espace Administrateur")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "menu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/adminReservations",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, " R\xE9servations ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/adminMessages",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Messagerie")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/adminMenu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "Menu")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/adminPlatsPopulaires",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Plats Populaires"))))));
+}
+
+/***/ }),
+
+/***/ "./src/components/adminMenuBar.css":
+/*!*****************************************!*\
+  !*** ./src/components/adminMenuBar.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./adminMenuBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/adminMenuBar.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./adminMenuBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/adminMenuBar.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./adminMenuBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/adminMenuBar.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../node_modules/font-awesome/css/font-awesome.min.css */ "./node_modules/font-awesome/css/font-awesome.min.css");
+/* harmony import */ var _node_modules_font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_node_modules_font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "C:\\Users\\walte\\Documents\\React\\Restaurant_Savoureux\\admin\\src\\index.js";
+
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_4__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/pages/AdminMenu/AdminMenu.js":
+/*!******************************************!*\
+  !*** ./src/pages/AdminMenu/AdminMenu.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AdminMenu; });
+/* harmony import */ var C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _services_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/api */ "./src/services/api.js");
+/* harmony import */ var react_bootstrap_CardDeck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/CardDeck */ "./node_modules/react-bootstrap/esm/CardDeck.js");
+/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Card */ "./node_modules/react-bootstrap/esm/Card.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _assets_images_camera_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/camera.svg */ "./src/assets/images/camera.svg");
+/* harmony import */ var _assets_images_camera_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_images_camera_svg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _adminMenu_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./adminMenu.css */ "./src/pages/AdminMenu/adminMenu.css");
+/* harmony import */ var _adminMenu_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_adminMenu_css__WEBPACK_IMPORTED_MODULE_7__);
+
+var _jsxFileName = "C:\\Users\\walte\\Documents\\React\\Restaurant_Savoureux\\admin\\src\\pages\\AdminMenu\\AdminMenu.js";
+
+
+
+
+
+
+
+function AdminMenu() {
+  const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+        _useState2 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        plats = _useState2[0],
+        setPlats = _useState2[1];
+
+  const _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
+        _useState4 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+        show = _useState4[0],
+        setShow = _useState4[1];
+
+  const _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
+        _useState6 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState5, 2),
+        photo = _useState6[0],
+        setPhoto = _useState6[1];
+
+  const _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(''),
+        _useState8 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState7, 2),
+        title = _useState8[0],
+        setTitle = _useState8[1];
+
+  const _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(''),
+        _useState10 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState9, 2),
+        description = _useState10[0],
+        setDescription = _useState10[1];
+
+  const _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(''),
+        _useState12 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState11, 2),
+        price = _useState12[0],
+        setPrice = _useState12[1];
+
+  const preview = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(() => {
+    return photo ? URL.createObjectURL(photo) : null;
+  }, [photo]);
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+    async function loadPlats() {
+      const response = await _services_api__WEBPACK_IMPORTED_MODULE_2__["default"].get('./plats');
+      setPlats(response.data);
+    }
+
+    loadPlats();
+  }, [photo]);
+
+  const handleShow = event => {
+    event.preventDefault();
+    setShow(true);
+  };
+
+  const handleClose = () => setShow(false);
+
+  async function handleSubmit() {
+    console.log(photo);
+    console.log(title);
+    console.log(description);
+    console.log(price);
+    const data = new FormData();
+    data.append('photo', photo, photo.name);
+    data.append('title', title);
+    data.append('description', description);
+    data.append('price', price);
+    await _services_api__WEBPACK_IMPORTED_MODULE_2__["default"].post('/plats', data, {
+      onUploadProgress: ProgressBar => {
+        console.log(Math.round(ProgressBar.loaded / ProgressBar.total * 100));
+      }
+    });
+    setPhoto('');
+    setTitle('');
+    setDescription('');
+    setPrice('');
+    console.log('data: ');
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "menuContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "cardDeckContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    id: "menuTitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, "Gestion de Menus"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "menuFrame",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_CardDeck__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    bsPrefix: "card-deck",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, plats.map(plat => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    bsPrefix: "col-sm-10 col-md-4 col-lg-3",
+    id: "card",
+    key: plat._id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Img, {
+    className: "image",
+    variant: "top",
+    src: plat.photo_url,
+    alt: plat.title,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, plat.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Text, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, plat.description)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Footer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "text-muted",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, plat.price, "\u20AC")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    bsPrefix: "col-sm-10 col-md-4 col-lg-3",
+    id: "card",
+    onClick: handleShow,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Img, {
+    className: "image",
+    variant: "top",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, "+ ajouter un titre"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Text, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }, "+ ajouter une description...")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_4__["default"].Footer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "text-muted",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "+ ajouter un prix \u20AC")))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
+    id: "modalWindow",
+    show: show,
+    onHide: handleClose,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Modal"].Header, {
+    closeButton: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Modal"].Title, {
+    id: "modalTitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  }, "Ajouter un nouveau plat")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Modal"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    id: "photo",
+    style: {
+      backgroundImage: "url(".concat(preview, ")")
+    },
+    className: photo ? 'has-photo' : '',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "file",
+    onChange: event => {
+      setPhoto(event.target.files[0]);
+      console.log(event.target.files[0]);
+      console.log(event.target.files[0]);
+    },
+    value: photo,
+    name: "photo",
+    placeholder: "Photo du nouveau plat",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: _assets_images_camera_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
+    alt: "select",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    htmlFor: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, "Titre"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    id: "title",
+    onChange: event => setTitle(event.target.value),
+    value: title,
+    type: "text",
+    name: "nom",
+    placeholder: "Nom du nouveau plat",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    htmlFor: "price",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127
+    },
+    __self: this
+  }, "Prix "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    id: "price",
+    onChange: event => setPrice(event.target.value),
+    value: price,
+    type: "text",
+    name: "prix",
+    placeholder: "Prix du nouveau plat",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 128
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    htmlFor: "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 132
+    },
+    __self: this
+  }, "Description"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    id: "description",
+    onChange: event => setDescription(event.target.value),
+    value: description,
+    type: "text",
+    name: "description",
+    placeholder: "Description du nouveau prix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Modal"].Footer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Button"], {
+    variant: "secondary",
+    onClick: handleClose,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }, "Annuler"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Button"], {
+    id: "confirmButton",
+    variant: "primary",
+    type: "submit",
+    onClick: () => {
+      handleSubmit();
+      handleClose();
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  }, "Confirmer"))));
+}
+
+/***/ }),
+
+/***/ "./src/pages/AdminMenu/adminMenu.css":
+/*!*******************************************!*\
+  !*** ./src/pages/AdminMenu/adminMenu.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminMenu.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminMenu/adminMenu.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminMenu.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminMenu/adminMenu.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminMenu.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminMenu/adminMenu.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/pages/AdminMessages/AdminMessages.js":
+/*!**************************************************!*\
+  !*** ./src/pages/AdminMessages/AdminMessages.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AdminMessages; });
+/* harmony import */ var C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-moment */ "./node_modules/react-moment/dist/index.js");
+/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_moment__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _services_api__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/api */ "./src/services/api.js");
+/* harmony import */ var _assets_images_email_png_images_transparent_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/email-png-images-transparent.png */ "./src/assets/images/email-png-images-transparent.png");
+/* harmony import */ var _assets_images_email_png_images_transparent_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_images_email_png_images_transparent_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _adminMessages_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./adminMessages.css */ "./src/pages/AdminMessages/adminMessages.css");
+/* harmony import */ var _adminMessages_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_adminMessages_css__WEBPACK_IMPORTED_MODULE_5__);
+
+var _jsxFileName = "C:\\Users\\walte\\Documents\\React\\Restaurant_Savoureux\\admin\\src\\pages\\AdminMessages\\AdminMessages.js";
+
+
+
+
+
+function AdminMessages() {
+  const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+        _useState2 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        messages = _useState2[0],
+        setMessages = _useState2[1];
+
+  const _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('null'),
+        _useState4 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+        name = _useState4[0],
+        setName = _useState4[1];
+
+  const _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('null'),
+        _useState6 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState5, 2),
+        email = _useState6[0],
+        setEmail = _useState6[1];
+
+  const _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('null'),
+        _useState8 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState7, 2),
+        date = _useState8[0],
+        setDate = _useState8[1];
+
+  const _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('null'),
+        _useState10 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState9, 2),
+        message = _useState10[0],
+        setMessage = _useState10[1];
+
+  const _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('null'),
+        _useState12 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState11, 2),
+        messageID = _useState12[0],
+        setMessageID = _useState12[1];
+
+  const _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(0),
+        _useState14 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState13, 2),
+        totalMessages = _useState14[0],
+        setTotalMessages = _useState14[1];
+
+  const _useState15 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
+        _useState16 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState15, 2),
+        show = _useState16[0],
+        setShow = _useState16[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+    async function loadMessages() {
+      const response = await _services_api__WEBPACK_IMPORTED_MODULE_3__["default"].get('./messages');
+      setMessages(response.data);
+      setTotalMessages(response.data.length);
+    }
+
+    loadMessages();
+  }, []); //vérifie si le message etait dejà vu
+
+  async function handleSaw(message) {
+    if (message.saw === false) {
+      await _services_api__WEBPACK_IMPORTED_MODULE_3__["default"].put('/messages/' + message._id, {
+        saw: true
+      });
+    }
+  } //Suprime le message selectioné
+
+
+  async function handleDelete() {
+    await _services_api__WEBPACK_IMPORTED_MODULE_3__["default"].delete('/messages/' + messageID);
+    console.log('id', messageID);
+  } //
+
+
+  function handleMessage(message) {
+    handleSaw(message);
+    setTimeout(() => {
+      setMessageID(message._id);
+      setName(message.name);
+      setEmail(message.email);
+      setDate(message.date);
+      setMessage(message.message);
+      setShow(true);
+    }, 300);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "messagesContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "messagesContent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    id: "menu",
+    className: "boiteMessages",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, "Bo\xEEte de r\xE9ception ", totalMessages), messages.sort((a, b) => a.date > b.date).map(message => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "sender",
+    key: message._id,
+    onClick: () => [handleMessage(message), handleSaw(message)],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, message.saw ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    role: "img",
+    "aria-label": "email icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, "\uD83D\uDCE7"), message.name, "  ") : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    role: "img",
+    "aria-label": "email icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "\uD83D\uDCE7"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, message.name), "  ")))), show ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "showMessage",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "messageHeader",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, name, " [", email, "] - ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_moment__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    format: "DD/MM/YYYY - HH:mm",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, date)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
+    id: "trashIcon",
+    className: "fa fa-trash",
+    onClick: () => {
+      if (window.confirm('Voulez-vous effacer ce message definitivement?')) {
+        handleDelete();
+      }
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    id: "messageContent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, message, " ")) : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "showMessage",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: _assets_images_email_png_images_transparent_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "email background",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  })))));
+}
+
+/***/ }),
+
+/***/ "./src/pages/AdminMessages/adminMessages.css":
+/*!***************************************************!*\
+  !*** ./src/pages/AdminMessages/adminMessages.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminMessages.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminMessages/adminMessages.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminMessages.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminMessages/adminMessages.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminMessages.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminMessages/adminMessages.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.css":
+/*!*****************************************************************!*\
+  !*** ./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.css ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./AdminPlatsPopulaires.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./AdminPlatsPopulaires.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./AdminPlatsPopulaires.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.js":
+/*!****************************************************************!*\
+  !*** ./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AdminPlatsPopulaires; });
+/* harmony import */ var C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _services_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/api */ "./src/services/api.js");
+/* harmony import */ var _AdminPlatsPopulaires_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AdminPlatsPopulaires.css */ "./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.css");
+/* harmony import */ var _AdminPlatsPopulaires_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_AdminPlatsPopulaires_css__WEBPACK_IMPORTED_MODULE_3__);
+
+var _jsxFileName = "C:\\Users\\walte\\Documents\\React\\Restaurant_Savoureux\\admin\\src\\pages\\AdminPlatsPopulaires\\AdminPlatsPopulaires.js";
+
+
+
+function AdminPlatsPopulaires() {
+  const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+        _useState2 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        plats = _useState2[0],
+        setPlats = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+    async function loadPlats() {
+      const response = await _services_api__WEBPACK_IMPORTED_MODULE_2__["default"].get('./plats');
+      setPlats(response.data);
+    }
+
+    loadPlats();
+  }, []);
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "platsContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "platsContent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Gestion des Plats Populaires"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "platsList",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, plats.map(plat => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    key: plat.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: plat.photo_url,
+    alt: plat.title,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Titre:"), " ", plat.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Prix:"), " ", plat.price, "\u20AC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Description:"), " ", plat.description))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    alt: "ajouter plat",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }))))));
+}
+
+/***/ }),
+
+/***/ "./src/pages/AdminReservations/AdminReservations.js":
+/*!**********************************************************!*\
+  !*** ./src/pages/AdminReservations/AdminReservations.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return AdminReservations; });
+/* harmony import */ var C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _services_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/api */ "./src/services/api.js");
+/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-moment */ "./node_modules/react-moment/dist/index.js");
+/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_moment__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _adminReservations_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./adminReservations.css */ "./src/pages/AdminReservations/adminReservations.css");
+/* harmony import */ var _adminReservations_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_adminReservations_css__WEBPACK_IMPORTED_MODULE_4__);
+
+var _jsxFileName = "C:\\Users\\walte\\Documents\\React\\Restaurant_Savoureux\\admin\\src\\pages\\AdminReservations\\AdminReservations.js";
+
+
+
+
+function AdminReservations() {
+  const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+        _useState2 = Object(C_Users_walte_Documents_React_Restaurant_Savoureux_admin_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        reservations = _useState2[0],
+        setReservations = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+    async function loadReservations() {
+      const response = await _services_api__WEBPACK_IMPORTED_MODULE_2__["default"].get('./reservations');
+      setReservations(response.data);
+    }
+
+    loadReservations();
+  }, []);
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "reservationsContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "reservationsContent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    id: "titleReservation",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Total de r\xE9servations: ", reservations.length), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, reservations.map(reservation => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    key: reservation._id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Nom: "), reservation.name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "Email: "), " ", reservation.email), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Qte de Personnes: "), " ", reservation.people), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Date: "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_moment__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    locale: "fr",
+    format: "ddd - DD/MM/YYYY",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, reservation.date), " "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Heures: "), " ", reservation.time))))));
+}
+
+/***/ }),
+
+/***/ "./src/pages/AdminReservations/adminReservations.css":
+/*!***********************************************************!*\
+  !*** ./src/pages/AdminReservations/adminReservations.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminReservations.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminReservations/adminReservations.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminReservations.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminReservations/adminReservations.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./adminReservations.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/pages/AdminReservations/adminReservations.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/routes.js":
+/*!***********************!*\
+  !*** ./src/routes.js ***!
+  \***********************/
+/*! exports provided: AdminRoutes */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminRoutes", function() { return AdminRoutes; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_AdminMenuBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/AdminMenuBar */ "./src/components/AdminMenuBar.js");
+/* harmony import */ var _pages_AdminReservations_AdminReservations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/AdminReservations/AdminReservations */ "./src/pages/AdminReservations/AdminReservations.js");
+/* harmony import */ var _pages_AdminMessages_AdminMessages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/AdminMessages/AdminMessages */ "./src/pages/AdminMessages/AdminMessages.js");
+/* harmony import */ var _pages_AdminMenu_AdminMenu__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/AdminMenu/AdminMenu */ "./src/pages/AdminMenu/AdminMenu.js");
+/* harmony import */ var _pages_AdminPlatsPopulaires_AdminPlatsPopulaires__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/AdminPlatsPopulaires/AdminPlatsPopulaires */ "./src/pages/AdminPlatsPopulaires/AdminPlatsPopulaires.js");
+var _jsxFileName = "C:\\Users\\walte\\Documents\\React\\Restaurant_Savoureux\\admin\\src\\routes.js";
+
+
+
+
+
+
+
+const AdminRoutes = () => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AdminMenuBar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/",
+    component: _pages_AdminMessages_AdminMessages__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/adminReservations",
+    component: _pages_AdminReservations_AdminReservations__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/adminMessages",
+    component: _pages_AdminMessages_AdminMessages__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/adminMenu",
+    component: _pages_AdminMenu_AdminMenu__WEBPACK_IMPORTED_MODULE_5__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/adminPlatsPopulaires",
+    component: _pages_AdminPlatsPopulaires_AdminPlatsPopulaires__WEBPACK_IMPORTED_MODULE_6__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  })));
+};
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ "./src/services/api.js":
+/*!*****************************!*\
+  !*** ./src/services/api.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
+const api = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
+  baseURL: 'http://localhost:9000'
+});
+/* harmony default export */ __webpack_exports__["default"] = (api);
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\walte\Documents\React\Restaurant_Savoureux\admin\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\walte\Documents\React\Restaurant_Savoureux\admin\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map

@@ -1,0 +1,9 @@
+.mainAdmin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 92vh;
+    margin-top: 8vh;
+
+}

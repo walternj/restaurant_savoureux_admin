@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  min-width: fit-content;
+
+} 
+
+@media (max-width: 768px) {
+  .App {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: fit-content;
+  }
+}

@@ -1,0 +1,206 @@
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+ 
+
+}
+  
+.cardDeckContainer {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  width: 100%;
+  height: fit-content;
+  min-height: 92vh;
+  margin-top: 8vh;
+  
+}
+
+#menuFrame {
+  display: flex;  
+  justify-content: flex-end;
+  width: 90%;
+}
+
+#menuTitle {
+  display: flex;
+  min-height: fit-content;
+  justify-content: center;
+  min-height: fit-content;
+  width: 90%;
+  margin-top: 2vh;
+ 
+  background-color: transparent;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-weight: bold;
+  color: rgb(49, 48, 48);
+  /*text-shadow:-1px 0 blue, 0 1px white, 1px 0 white, 0 -1px white;*/
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap; 
+  align-items: stretch;
+  
+  padding: 0;
+  margin: 0;
+}
+  
+#card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 550px;
+  background-color: rgba(256, 256, 256, 0.90);
+  margin: 5px;
+  padding: 0;
+  max-width: 236px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+
+#card img {
+  background-image: url("../../assets/images/camera.svg");
+  height: 150px;   
+  max-height: 150px;
+}
+  
+.image {
+  display: flex;
+  height: 30%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#menuEditIcon {
+  position: absolute;
+  font-size: 30px;
+  color: rgb(73, 68, 68);
+  right: 35px;
+  bottom: 65px;
+  cursor: pointer;
+}
+#menuEditIcon:hover {
+	color: green;
+}
+
+#menuTrashIcon {
+  position: absolute;
+  font-size: 30px;
+  color: rgb(73, 68, 68);
+  right: 3px;
+  bottom: 65px;
+  cursor: pointer;
+}
+#menuTrashIcon:hover {
+	color: red;
+	
+}
+
+#modalWindow form{
+  display: flex;
+  flex-direction: column;
+}
+
+#modalWindow form label {
+  display: flex;
+  flex-direction: column;
+}
+
+#photo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border-style: dashed;
+  border-width: 0.5px;
+  border-color: rgb(179, 179, 179);
+  cursor: pointer;
+}
+
+#photo input {
+  display: none;
+}
+
+.has-photo img {
+  display: none;
+}
+
+#title {
+  align-self: flex-start;
+  width: 100%;
+}
+
+#description {
+  height: 150px;
+  word-wrap: break-word;
+}
+
+
+@media (max-width: 1024px) {    
+
+  #menuTitle {
+    margin-top: 4vh;
+  }
+
+  #menuFrame {
+    display: flex;
+    width: 94%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .menuContainer {
+      
+    margin-top: -8vh;
+  }
+
+  #menuTitle {
+      margin-top: 6vh;
+  }
+
+  #menuFrame {
+    width: 93%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 574px) {
+
+  #menuFrame {
+      justify-content: center;
+      width: 95%;
+      
+      border-color: #F81;
+  }
+
+  .card-deck {
+    justify-content: center;
+  }
+  #card {
+    display: flex;
+      
+  }
+}
+
